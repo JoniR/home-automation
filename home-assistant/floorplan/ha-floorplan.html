@@ -356,14 +356,14 @@
           }
 
           // Enable pan / zoom if enabled in config
-          if ((this.instance.config.pan_zoom === null) || (this.instance.config.pan_zoom !== undefined)) {
+         /* if ((this.instance.config.pan_zoom === null) || (this.instance.config.pan_zoom !== undefined)) {
             svgPanZoom($(svg)[0], {
               zoomEnabled: true,
               controlIconsEnabled: true,
               fit: true,
               center: true,
             });
-          }
+          }*/
 
           this.callback();
 
