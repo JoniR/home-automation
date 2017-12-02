@@ -14,7 +14,7 @@ introduction: Home Assistant docker installation to Ubuntu server.
 ---
 ## Home Assistant
 
-Docker installation is based on this blog: http://philhawthorne.com/installing-home-assistant-io-on-a-synology-diskstation-nas/
+Docker installation is based on this blog: [http://philhawthorne.com/installing-home-assistant-io-on-a-synology-diskstation-nas/](http://philhawthorne.com/installing-home-assistant-io-on-a-synology-diskstation-nas/)
 
 Home Assistant is running by docker and named as hass.
 
@@ -33,5 +33,10 @@ Script include following code:
 ```bash
 #!/bin/bash
 now=$(date +"%m_%d_%Y")
-docker pull homeassistant/home-assistant && docker stop hass && docker update --restart=no hass && docker rename hass hass-old-$now && docker run --name hass --restart=always --net=host -itd -v /home/joni/docker/homeassistant/config:/config homeassistant/home-assistant
+docker pull homeassistant/home-assistant &&
+docker stop hass &&
+docker update --restart=no hass && 
+docker rename hass hass-old-$now && 
+docker run --name hass --restart=always --net=host -itd \\ 
+-v /home/joni/docker/homeassistant/config:/config homeassistant/home-assistant
 ```
