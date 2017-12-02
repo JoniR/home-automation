@@ -1,5 +1,5 @@
 # Site Settings
-title: Jekflix | A theme for Jekyll
+title: Home Automation | Geek with home
 email: youremail@xyz.com
 description: Some text about your blog.
 baseurl: "/home-automation" # the subpath of your site, e.g. /blog
@@ -7,7 +7,7 @@ url: "https://jonir.github.io" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: Joni
+username: Home Automation
 user_description: Some text about you.
 disqus_username: disqus_username
 
