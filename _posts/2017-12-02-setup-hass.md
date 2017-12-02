@@ -6,13 +6,17 @@ image: 'https://inventability.net/assets/pics/posts/tips/feature/hass.png'
 description: Home Assistant docker installation to Ubuntu server
 category: 'blog'
 tags:
-- jekyll
-- wordpress
-- blog
+- home automation
+- home assistant
+- docker
 twitter_text: Home Assistant docker installation to Ubuntu server.
 introduction: Home Assistant docker installation to Ubuntu server.
 ---
 ## Home Assistant
+
+Home Assistant is full featured home automation platform running on different platforms. I have setup own Ubuntu server on my home to run this. You can find quite lot of information from the internet about the Home Assistant.
+
+This blog is my worklog about adventure on Home Assistant.
 
 Docker installation is based on this blog: [http://philhawthorne.com/installing-home-assistant-io-on-a-synology-diskstation-nas/](http://philhawthorne.com/installing-home-assistant-io-on-a-synology-diskstation-nas/)
 
